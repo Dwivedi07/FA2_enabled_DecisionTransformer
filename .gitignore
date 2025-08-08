@@ -1,0 +1,24 @@
+# Ignore all datasets inside freeflyer
+freeflyer/dataset/
+freeflyer/dataset_sub/
+freeflyer/dataset_generation/
+
+# Ignore all checkpoints and model weights
+freeflyer/saved_files/
+freeflyer/**/checkpoints/
+*.bin
+*.pkl
+
+# Ignore Python bytecode and cache
+**/__pycache__/
+*.pyc
+
+# Ignore Weights & Biases logs (if used)
+**/wandb/
+
+# Ignore notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore logs and temp files
+*.log
+*.tmp
